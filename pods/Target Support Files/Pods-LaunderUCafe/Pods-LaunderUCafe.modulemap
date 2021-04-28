@@ -1,0 +1,6 @@
+framework module Pods_LaunderUCafe {
+  umbrella header "Pods-LaunderUCafe-umbrella.h"
+
+  export *
+  module * { export * }
+}

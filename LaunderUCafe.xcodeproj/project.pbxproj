@@ -3,19 +3,64 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E1A2363260F1436005801C1 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1A2362260F1436005801C1 /* Home.swift */; };
+		5E1A237B2613865A005801C1 /* CocoaLaundryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1A237A2613865A005801C1 /* CocoaLaundryViewController.swift */; };
+		5E1A237F261386AF005801C1 /* LaundryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1A237E261386AF005801C1 /* LaundryVC.swift */; };
+		5E3D40D525FAEA6300A4555B /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3D40D425FAEA6300A4555B /* DetailVC.swift */; };
+		5E4FAE60262732F20043CE1A /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E4FAE5F262732F20043CE1A /* MessageUI.framework */; };
+		5E5200BA26308FE800172C63 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5200B926308FE800172C63 /* SplashViewController.swift */; };
 		5E53068125B2875E0043FBAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53068025B2875E0043FBAD /* AppDelegate.swift */; };
 		5E53068325B2875E0043FBAD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53068225B2875E0043FBAD /* SceneDelegate.swift */; };
 		5E53068525B2875E0043FBAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53068425B2875E0043FBAD /* ViewController.swift */; };
 		5E53068825B2875E0043FBAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E53068625B2875E0043FBAD /* Main.storyboard */; };
 		5E53068A25B2875F0043FBAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E53068925B2875F0043FBAD /* Assets.xcassets */; };
 		5E53068D25B2875F0043FBAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E53068B25B2875F0043FBAD /* LaunchScreen.storyboard */; };
+		5E53069625B288280043FBAD /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53069525B288280043FBAD /* SignUpViewController.swift */; };
+		5E53069925B288580043FBAD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53069825B288580043FBAD /* HomeViewController.swift */; };
+		5E53069C25B2887E0043FBAD /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53069B25B2887E0043FBAD /* LogInViewController.swift */; };
+		5E53069F25B288910043FBAD /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53069E25B288910043FBAD /* SettingsViewController.swift */; };
+		5E5B834426272D130004EFDB /* ContactUs_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5B834326272D130004EFDB /* ContactUs_VC.swift */; };
+		5E658844262A335700891FA0 /* DeleteAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E658843262A335700891FA0 /* DeleteAccountVC.swift */; };
+		5E6B911F25EC79D800E8C2AF /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 5E6B911E25EC79D800E8C2AF /* SDWebImage */; };
+		5E6B912125EC79D800E8C2AF /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5E6B912025EC79D800E8C2AF /* SDWebImageMapKit */; };
+		5E6B912525ED950A00E8C2AF /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 5E6B912425ED950A00E8C2AF /* SDWebImageSwiftUI */; };
+		5E6F94F425D1E74D00BFFC1E /* SettingsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6F94F325D1E74D00BFFC1E /* SettingsSection.swift */; };
+		5E750F7C25E40B7A00C91387 /* CurrentUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E750F7B25E40B7900C91387 /* CurrentUser.swift */; };
+		5E75CE9E25BF1C0D00074224 /* UserInfoHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E75CE9D25BF1C0D00074224 /* UserInfoHeader.swift */; };
+		5E75CEA125BF1C1A00074224 /* SettingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E75CEA025BF1C1A00074224 /* SettingsCell.swift */; };
+		5E82CA7825B2A92E0067C382 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E82CA7725B2A92E0067C382 /* GoogleService-Info.plist */; };
+		5E9D811A25B2A2AD00C5E38F /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9D811925B2A2AD00C5E38F /* Utilities.swift */; };
+		5E9D811D25B2A2B600C5E38F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9D811C25B2A2B600C5E38F /* Constants.swift */; };
+		5EA3B0F125E4CB5000C17E1F /* OrderViewController .swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA3B0F025E4CB5000C17E1F /* OrderViewController .swift */; };
+		5EA3B0F425E5A4EB00C17E1F /* CocoaOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA3B0F325E5A4EB00C17E1F /* CocoaOrderViewController.swift */; };
+		5ED0F314261689A2008775D3 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED0F313261689A2008775D3 /* Item.swift */; };
+		5ED0F317261689AD008775D3 /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED0F316261689AD008775D3 /* Cart.swift */; };
+		5ED0F31A26168A90008775D3 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED0F31926168A90008775D3 /* HomeViewModel.swift */; };
+		5ED0F31D26168A9D008775D3 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED0F31C26168A9D008775D3 /* Menu.swift */; };
+		5ED0F32026168AA7008775D3 /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED0F31F26168AA7008775D3 /* ItemView.swift */; };
+		5ED0F3562616A057008775D3 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED0F3552616A056008775D3 /* CartView.swift */; };
+		5ED31856261D210A00829EAA /* Laundry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED31855261D210A00829EAA /* Laundry.swift */; };
+		5ED31859261D213300829EAA /* L_ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED31858261D213300829EAA /* L_ItemView.swift */; };
+		5ED3185C261D218700829EAA /* L_CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED3185B261D218700829EAA /* L_CartView.swift */; };
+		5ED3185F261D219600829EAA /* L_Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED3185E261D219600829EAA /* L_Home.swift */; };
+		5ED31866261D23B500829EAA /* L_HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED31865261D23B500829EAA /* L_HomeViewModel.swift */; };
+		5ED31869261D23D900829EAA /* L_Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED31868261D23D900829EAA /* L_Item.swift */; };
+		5ED3186C261D23E300829EAA /* L_Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED3186B261D23E300829EAA /* L_Cart.swift */; };
+		DF808834838E424FE01CE32C /* Pods_LaunderUCafe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62AD13DE4527A00E165B35AA /* Pods_LaunderUCafe.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00322D991713D889A004CBEA /* Pods-LaunderUCafe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LaunderUCafe.release.xcconfig"; path = "Target Support Files/Pods-LaunderUCafe/Pods-LaunderUCafe.release.xcconfig"; sourceTree = "<group>"; };
+		5E1A2362260F1436005801C1 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		5E1A237A2613865A005801C1 /* CocoaLaundryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaLaundryViewController.swift; sourceTree = "<group>"; };
+		5E1A237E261386AF005801C1 /* LaundryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaundryVC.swift; sourceTree = "<group>"; };
+		5E3D40D425FAEA6300A4555B /* DetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		5E4FAE5F262732F20043CE1A /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		5E5200B926308FE800172C63 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		5E53067D25B2875E0043FBAD /* LaunderUCafe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaunderUCafe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E53068025B2875E0043FBAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E53068225B2875E0043FBAD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +69,36 @@
 		5E53068925B2875F0043FBAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E53068C25B2875F0043FBAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E53068E25B2875F0043FBAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E53069525B288280043FBAD /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		5E53069825B288580043FBAD /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		5E53069B25B2887E0043FBAD /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		5E53069E25B288910043FBAD /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		5E5B834326272D130004EFDB /* ContactUs_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUs_VC.swift; sourceTree = "<group>"; };
+		5E658843262A335700891FA0 /* DeleteAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteAccountVC.swift; sourceTree = "<group>"; };
+		5E6F94F325D1E74D00BFFC1E /* SettingsSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSection.swift; sourceTree = "<group>"; };
+		5E750F7B25E40B7900C91387 /* CurrentUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUser.swift; sourceTree = "<group>"; };
+		5E75CE9D25BF1C0D00074224 /* UserInfoHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfoHeader.swift; sourceTree = "<group>"; };
+		5E75CEA025BF1C1A00074224 /* SettingsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsCell.swift; sourceTree = "<group>"; };
+		5E82CA7725B2A92E0067C382 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5E9D811925B2A2AD00C5E38F /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		5E9D811C25B2A2B600C5E38F /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5EA3B0F025E4CB5000C17E1F /* OrderViewController .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OrderViewController .swift"; sourceTree = "<group>"; };
+		5EA3B0F325E5A4EB00C17E1F /* CocoaOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaOrderViewController.swift; sourceTree = "<group>"; };
+		5ED0F313261689A2008775D3 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		5ED0F316261689AD008775D3 /* Cart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
+		5ED0F31926168A90008775D3 /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		5ED0F31C26168A9D008775D3 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		5ED0F31F26168AA7008775D3 /* ItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
+		5ED0F3552616A056008775D3 /* CartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		5ED31855261D210A00829EAA /* Laundry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Laundry.swift; sourceTree = "<group>"; };
+		5ED31858261D213300829EAA /* L_ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L_ItemView.swift; sourceTree = "<group>"; };
+		5ED3185B261D218700829EAA /* L_CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L_CartView.swift; sourceTree = "<group>"; };
+		5ED3185E261D219600829EAA /* L_Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L_Home.swift; sourceTree = "<group>"; };
+		5ED31865261D23B500829EAA /* L_HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L_HomeViewModel.swift; sourceTree = "<group>"; };
+		5ED31868261D23D900829EAA /* L_Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L_Item.swift; sourceTree = "<group>"; };
+		5ED3186B261D23E300829EAA /* L_Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L_Cart.swift; sourceTree = "<group>"; };
+		62AD13DE4527A00E165B35AA /* Pods_LaunderUCafe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LaunderUCafe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E941019762D6758E87ACCEE0 /* Pods-LaunderUCafe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LaunderUCafe.debug.xcconfig"; path = "Target Support Files/Pods-LaunderUCafe/Pods-LaunderUCafe.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +106,61 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E4FAE60262732F20043CE1A /* MessageUI.framework in Frameworks */,
+				5E6B912525ED950A00E8C2AF /* SDWebImageSwiftUI in Frameworks */,
+				5E6B911F25EC79D800E8C2AF /* SDWebImage in Frameworks */,
+				5E6B912125EC79D800E8C2AF /* SDWebImageMapKit in Frameworks */,
+				DF808834838E424FE01CE32C /* Pods_LaunderUCafe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		130A3547447DC0EA7CC49CD8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E4FAE5F262732F20043CE1A /* MessageUI.framework */,
+				62AD13DE4527A00E165B35AA /* Pods_LaunderUCafe.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		13A3AAE261067E03D1210F95 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E941019762D6758E87ACCEE0 /* Pods-LaunderUCafe.debug.xcconfig */,
+				00322D991713D889A004CBEA /* Pods-LaunderUCafe.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5E1A237926138615005801C1 /* SwiftUI2StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				5EA3B0F325E5A4EB00C17E1F /* CocoaOrderViewController.swift */,
+				5E1A237A2613865A005801C1 /* CocoaLaundryViewController.swift */,
+			);
+			path = SwiftUI2StoryBoard;
+			sourceTree = "<group>";
+		};
+		5E3D40D825FAEA8A00A4555B /* SettingCellsHelper */ = {
+			isa = PBXGroup;
+			children = (
+				5E3D40D425FAEA6300A4555B /* DetailVC.swift */,
+				5E5B834326272D130004EFDB /* ContactUs_VC.swift */,
+				5E658843262A335700891FA0 /* DeleteAccountVC.swift */,
+			);
+			path = SettingCellsHelper;
+			sourceTree = "<group>";
+		};
 		5E53067425B2875E0043FBAD = {
 			isa = PBXGroup;
 			children = (
 				5E53067F25B2875E0043FBAD /* LaunderUCafe */,
 				5E53067E25B2875E0043FBAD /* Products */,
+				13A3AAE261067E03D1210F95 /* Pods */,
+				130A3547447DC0EA7CC49CD8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +175,133 @@
 		5E53067F25B2875E0043FBAD /* LaunderUCafe */ = {
 			isa = PBXGroup;
 			children = (
-				5E53068025B2875E0043FBAD /* AppDelegate.swift */,
-				5E53068225B2875E0043FBAD /* SceneDelegate.swift */,
-				5E53068425B2875E0043FBAD /* ViewController.swift */,
+				5ED0F39A261A3FB4008775D3 /* Delegates */,
+				5E1A237926138615005801C1 /* SwiftUI2StoryBoard */,
+				5E9D811F25B2A2BB00C5E38F /* Helpers */,
+				5ED31850261D1AC700829EAA /* LaundryHelpers */,
+				5E750F7E25E4B7A500C91387 /* OrderingHelpers */,
+				5E3D40D825FAEA8A00A4555B /* SettingCellsHelper */,
+				5E5306A125B288E70043FBAD /* View Controllers */,
 				5E53068625B2875E0043FBAD /* Main.storyboard */,
 				5E53068925B2875F0043FBAD /* Assets.xcassets */,
 				5E53068B25B2875F0043FBAD /* LaunchScreen.storyboard */,
 				5E53068E25B2875F0043FBAD /* Info.plist */,
+				5E82CA7725B2A92E0067C382 /* GoogleService-Info.plist */,
 			);
 			path = LaunderUCafe;
+			sourceTree = "<group>";
+		};
+		5E5306A125B288E70043FBAD /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5E5200B926308FE800172C63 /* SplashViewController.swift */,
+				5E53068425B2875E0043FBAD /* ViewController.swift */,
+				5E53069525B288280043FBAD /* SignUpViewController.swift */,
+				5E53069B25B2887E0043FBAD /* LogInViewController.swift */,
+				5E53069825B288580043FBAD /* HomeViewController.swift */,
+				5E1A237E261386AF005801C1 /* LaundryVC.swift */,
+				5EA3B0F025E4CB5000C17E1F /* OrderViewController .swift */,
+				5E53069E25B288910043FBAD /* SettingsViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		5E750F7E25E4B7A500C91387 /* OrderingHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				5ED0F3102616895C008775D3 /* OrderView */,
+				5ED0F31126168973008775D3 /* OrderViewModel */,
+				5ED0F31226168995008775D3 /* Model */,
+			);
+			path = OrderingHelpers;
+			sourceTree = "<group>";
+		};
+		5E9D811F25B2A2BB00C5E38F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				5E9D811C25B2A2B600C5E38F /* Constants.swift */,
+				5E9D811925B2A2AD00C5E38F /* Utilities.swift */,
+				5E750F7B25E40B7900C91387 /* CurrentUser.swift */,
+				5E75CE9D25BF1C0D00074224 /* UserInfoHeader.swift */,
+				5E75CEA025BF1C1A00074224 /* SettingsCell.swift */,
+				5E6F94F325D1E74D00BFFC1E /* SettingsSection.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		5ED0F3102616895C008775D3 /* OrderView */ = {
+			isa = PBXGroup;
+			children = (
+				5ED0F31C26168A9D008775D3 /* Menu.swift */,
+				5ED0F31F26168AA7008775D3 /* ItemView.swift */,
+				5ED0F3552616A056008775D3 /* CartView.swift */,
+				5E1A2362260F1436005801C1 /* Home.swift */,
+			);
+			path = OrderView;
+			sourceTree = "<group>";
+		};
+		5ED0F31126168973008775D3 /* OrderViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5ED0F31926168A90008775D3 /* HomeViewModel.swift */,
+			);
+			path = OrderViewModel;
+			sourceTree = "<group>";
+		};
+		5ED0F31226168995008775D3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5ED0F313261689A2008775D3 /* Item.swift */,
+				5ED0F316261689AD008775D3 /* Cart.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5ED0F39A261A3FB4008775D3 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				5E53068025B2875E0043FBAD /* AppDelegate.swift */,
+				5E53068225B2875E0043FBAD /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		5ED31850261D1AC700829EAA /* LaundryHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				5ED31851261D1E8900829EAA /* LaundryView */,
+				5ED31853261D1EB000829EAA /* LaundryViewModel */,
+				5ED31854261D1EC000829EAA /* Model */,
+			);
+			path = LaundryHelpers;
+			sourceTree = "<group>";
+		};
+		5ED31851261D1E8900829EAA /* LaundryView */ = {
+			isa = PBXGroup;
+			children = (
+				5ED31855261D210A00829EAA /* Laundry.swift */,
+				5ED31858261D213300829EAA /* L_ItemView.swift */,
+				5ED3185B261D218700829EAA /* L_CartView.swift */,
+				5ED3185E261D219600829EAA /* L_Home.swift */,
+			);
+			path = LaundryView;
+			sourceTree = "<group>";
+		};
+		5ED31853261D1EB000829EAA /* LaundryViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5ED31865261D23B500829EAA /* L_HomeViewModel.swift */,
+			);
+			path = LaundryViewModel;
+			sourceTree = "<group>";
+		};
+		5ED31854261D1EC000829EAA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5ED31868261D23D900829EAA /* L_Item.swift */,
+				5ED3186B261D23E300829EAA /* L_Cart.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +311,22 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E53069125B2875F0043FBAD /* Build configuration list for PBXNativeTarget "LaunderUCafe" */;
 			buildPhases = (
+				68E30BDC708EA99B38FEB99F /* [CP] Check Pods Manifest.lock */,
 				5E53067925B2875E0043FBAD /* Sources */,
 				5E53067A25B2875E0043FBAD /* Frameworks */,
 				5E53067B25B2875E0043FBAD /* Resources */,
+				CD2E9F03CFAC130A1D0583A9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = LaunderUCafe;
+			packageProductDependencies = (
+				5E6B911E25EC79D800E8C2AF /* SDWebImage */,
+				5E6B912025EC79D800E8C2AF /* SDWebImageMapKit */,
+				5E6B912425ED950A00E8C2AF /* SDWebImageSwiftUI */,
+			);
 			productName = LaunderUCafe;
 			productReference = 5E53067D25B2875E0043FBAD /* LaunderUCafe.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +354,10 @@
 				Base,
 			);
 			mainGroup = 5E53067425B2875E0043FBAD;
+			packageReferences = (
+				5E6B911D25EC79D800E8C2AF /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				5E6B912325ED950A00E8C2AF /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = 5E53067E25B2875E0043FBAD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,6 +373,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E53068D25B2875F0043FBAD /* LaunchScreen.storyboard in Resources */,
+				5E82CA7825B2A92E0067C382 /* GoogleService-Info.plist in Resources */,
 				5E53068A25B2875F0043FBAD /* Assets.xcassets in Resources */,
 				5E53068825B2875E0043FBAD /* Main.storyboard in Resources */,
 			);
@@ -132,14 +381,88 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		68E30BDC708EA99B38FEB99F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LaunderUCafe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD2E9F03CFAC130A1D0583A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LaunderUCafe/Pods-LaunderUCafe-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LaunderUCafe/Pods-LaunderUCafe-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LaunderUCafe/Pods-LaunderUCafe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5E53067925B2875E0043FBAD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5ED31859261D213300829EAA /* L_ItemView.swift in Sources */,
+				5ED0F317261689AD008775D3 /* Cart.swift in Sources */,
+				5EA3B0F125E4CB5000C17E1F /* OrderViewController .swift in Sources */,
+				5E1A237F261386AF005801C1 /* LaundryVC.swift in Sources */,
+				5E6F94F425D1E74D00BFFC1E /* SettingsSection.swift in Sources */,
+				5ED0F314261689A2008775D3 /* Item.swift in Sources */,
+				5E53069925B288580043FBAD /* HomeViewController.swift in Sources */,
+				5E3D40D525FAEA6300A4555B /* DetailVC.swift in Sources */,
 				5E53068525B2875E0043FBAD /* ViewController.swift in Sources */,
+				5ED3185F261D219600829EAA /* L_Home.swift in Sources */,
+				5EA3B0F425E5A4EB00C17E1F /* CocoaOrderViewController.swift in Sources */,
+				5ED31856261D210A00829EAA /* Laundry.swift in Sources */,
+				5ED3185C261D218700829EAA /* L_CartView.swift in Sources */,
+				5ED0F31A26168A90008775D3 /* HomeViewModel.swift in Sources */,
+				5E53069F25B288910043FBAD /* SettingsViewController.swift in Sources */,
+				5ED0F3562616A057008775D3 /* CartView.swift in Sources */,
+				5E53069C25B2887E0043FBAD /* LogInViewController.swift in Sources */,
+				5E75CEA125BF1C1A00074224 /* SettingsCell.swift in Sources */,
+				5ED31869261D23D900829EAA /* L_Item.swift in Sources */,
+				5E5200BA26308FE800172C63 /* SplashViewController.swift in Sources */,
+				5ED0F32026168AA7008775D3 /* ItemView.swift in Sources */,
+				5E1A237B2613865A005801C1 /* CocoaLaundryViewController.swift in Sources */,
+				5ED31866261D23B500829EAA /* L_HomeViewModel.swift in Sources */,
 				5E53068125B2875E0043FBAD /* AppDelegate.swift in Sources */,
+				5E53069625B288280043FBAD /* SignUpViewController.swift in Sources */,
+				5E75CE9E25BF1C0D00074224 /* UserInfoHeader.swift in Sources */,
+				5E658844262A335700891FA0 /* DeleteAccountVC.swift in Sources */,
+				5E5B834426272D130004EFDB /* ContactUs_VC.swift in Sources */,
+				5E750F7C25E40B7A00C91387 /* CurrentUser.swift in Sources */,
+				5E9D811A25B2A2AD00C5E38F /* Utilities.swift in Sources */,
 				5E53068325B2875E0043FBAD /* SceneDelegate.swift in Sources */,
+				5ED3186C261D23E300829EAA /* L_Cart.swift in Sources */,
+				5E1A2363260F1436005801C1 /* Home.swift in Sources */,
+				5ED0F31D26168A9D008775D3 /* Menu.swift in Sources */,
+				5E9D811D25B2A2B600C5E38F /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +597,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -283,6 +607,7 @@
 		};
 		5E53069225B2875F0043FBAD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E941019762D6758E87ACCEE0 /* Pods-LaunderUCafe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -293,7 +618,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.LaunderUCafe.LaunderUCafe;
+				PRODUCT_BUNDLE_IDENTIFIER = Veridson.LaunderUCafe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -302,6 +627,7 @@
 		};
 		5E53069325B2875F0043FBAD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00322D991713D889A004CBEA /* Pods-LaunderUCafe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,7 +638,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.LaunderUCafe.LaunderUCafe;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = Veridson.LaunderUCafe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -341,6 +668,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5E6B911D25EC79D800E8C2AF /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.4;
+			};
+		};
+		5E6B912325ED950A00E8C2AF /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5E6B911E25EC79D800E8C2AF /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5E6B911D25EC79D800E8C2AF /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		5E6B912025EC79D800E8C2AF /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5E6B911D25EC79D800E8C2AF /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+		5E6B912425ED950A00E8C2AF /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5E6B912325ED950A00E8C2AF /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5E53067525B2875E0043FBAD /* Project object */;
 }
